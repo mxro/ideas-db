@@ -4,7 +4,8 @@ import { runMigrations } from './migrations';
 async function main() {
     const knex = Knex({
         client: 'sqlite3',
-        connection: {filename: ':memory:'}
+        connection: { filename: ':memory:' },
+        pool: { min: 1, max: 1 },
     });
 
     await runMigrations({ knex });
