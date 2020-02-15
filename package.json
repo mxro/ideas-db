@@ -12,10 +12,12 @@
   },
   "devDependencies": {
     "@types/node": "^13.7.1",
+    "@types/yargs": "^15.0.3",
     "typescript": "^3.7.5"
   },
   "dependencies": {
     "knex": "^0.20.9",
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^4.1.1",
+    "yargs": "^15.1.0"
   }
 }

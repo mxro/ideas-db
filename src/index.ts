@@ -1,10 +1,13 @@
 import Knex from 'knex';
+import { runMigrations } from './migrations';
 
 async function main() {
     const knex = Knex({
         client: 'sqlite3',
         connection: {filename: ':memory:'}
     });
+
+    await runMigrations({ knex });
 
     console.log(await knex.raw('SELECT 1;'));
 
