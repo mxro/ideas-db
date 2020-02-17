@@ -2415,6 +2415,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+kindle-citation-extractor@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/kindle-citation-extractor/-/kindle-citation-extractor-0.1.2.tgz#95bb3d66832ef211b33af90838d46e0d29997930"
+  integrity sha512-99JTdmR9S/ODZBmkNgaoNtCHMvl0A7mMteJVKbpLBHYyXSxQH0OSxHHXiH0txQ8Ymqgcy3z7ltsR0uKBQQGV/Q==
+
 kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
