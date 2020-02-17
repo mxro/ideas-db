@@ -18,6 +18,7 @@
         }
     },
     "include": [
-        "src/**/*", "test/migrations.test.ts"
+        "src/**/*",
+        "test/**/*"
     ]
 }
