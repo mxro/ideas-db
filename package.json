@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "kindle-citation-extractor": "0.1.2",
-    "knex": "^0.20.9",
+    "knex": "^2.4.0",
     "sqlite3": "^4.1.1",
     "uuid": "^3.4.0",
     "yargs": "^15.1.0"
